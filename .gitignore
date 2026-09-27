@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.spec
+
+# 打包产物
+build/
+dist/
+exe_build/
+exe_dist/
+
+# 运行时产物
+阅卷PDF/
+shots/
+pdf_*.pdf
+attempt*.pdf
+pending_overrides.json
+overrides.json
+p1_a.json
+
+# 交付压缩包
+*.zip
