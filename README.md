@@ -66,10 +66,13 @@
 
 ### 方式一：免安装 exe
 
-下载 Releases 里的 `实验预习答题助手.exe`，放到任意**可写**目录（别放
-`C:\Program Files`），双击，按提示输入学号、密码即可。
+到 [Releases](https://github.com/FocuZHe/lab-preview-quiz-auto/releases) 下载
+`lab-quiz-assistant-v1.0.0.exe`（约 42 MB），放到任意**可写**目录
+（别放 `C:\Program Files`），双击，按提示输入学号、密码即可。下载后可以随便改名。
 
 第一次运行会在旁边生成 `bank.json`（题库）。
+
+> 附件用英文名是因为 GitHub 会把非 ASCII 的 Release 附件名规范化成 `default.exe`。
 
 ### 方式二：Python 脚本
 
